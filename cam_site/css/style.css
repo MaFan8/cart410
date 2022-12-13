@@ -38,14 +38,35 @@
     /* border: 1px solid #555; */
   }
 
-  /* .btm {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    a {
-      color: #777;
+  .video {
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  a:link {
+      color: rgb(44, 17, 40);
+      background-color: transparent;
+      text-decoration: none;
     }
-  } */
+    
+    a:visited {
+      color: rgb(97, 38, 223);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: rgb(60, 60, 32);
+      background-color: transparent;
+      text-decoration: underline;
+    }
 
   .popup-link {
     display: flex;  
